@@ -1,0 +1,52 @@
+{
+  "sha256": "66d5fbca9e63b2cfddfba3b2466edde914a0e5e5ea8529dbfeb8ae1cd9ba4b04",
+  "method": "GLB triangle horizontal slices at +0.25/+1/+1.75 m; floor triangles; 0.25 m grid with 0.25 m clearance; four-neighbour flood fill",
+  "checks": {
+    "departure_public_to_gate": true,
+    "closing_security_blocks_bypass": true,
+    "west_security_independently_reaches_gate": true,
+    "east_security_independently_reaches_gate": true,
+    "arrival_mezzanine_continuous": true,
+    "claim_to_arrival_exit": true,
+    "closing_arrival_exit_blocks_reverse_bypass": true,
+    "route_samples_clear": true,
+    "arrival_stair_support": true,
+    "bridge_sloping_branches_supported": true,
+    "bridge_branch_headroom_samples": true,
+    "obsolete_bridge_towers_removed": true,
+    "main_roof_offcentre_spine": true,
+    "old_main_roof_meshes_removed": true,
+    "skylight_taper_and_sweep": true,
+    "raised_concourse_height": true,
+    "entrance_ramp_continuous_support": true,
+    "connector_is_narrow_not_full_width": true,
+    "old_wide_root_floor_removed": true,
+    "connector_links_both_landings": true,
+    "bridge_departure_matches_raised_floor": true,
+    "arrival_floor_remains_independent": true,
+    "arrival_outer_daylight_void": true
+  },
+  "blocked_route_samples": [],
+  "limits": [
+    "Bridge aircraft shared-end switching not simulated or included in no-bypass proof",
+    "No full all-pairs mesh collision certification",
+    "Floor transitions limited to modelled arrival stair; hidden service and remote areas not reconstructed"
+  ],
+  "departure_profile_from_GLB": [
+    [
+      -322.0,
+      8.649999618530273
+    ],
+    [
+      -23.0,
+      8.649999618530273
+    ],
+    [
+      1.0,
+      8.0
+    ]
+  ],
+  "departure_navigation_note": "Departure obstacles flattened relative to the actual exported floor profile before slicing; ramp support independently sampled in 3D.",
+  "roof_OSM_footprint_IoU": 0.890354297338532,
+  "footprint_note": "Green overlap, blue OSM only, ochre model only. Map alignment, not survey accuracy. Camera-matched photo residuals are not measured."
+}

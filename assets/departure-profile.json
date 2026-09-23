@@ -1,0 +1,8 @@
+{
+  "base": 8.0,
+  "height": 0.65,
+  "start_z": 1.0,
+  "end_z": -23.0,
+  "gate_floor": 8.65,
+  "note": "R5 confirms the rise; height and run are inferred."
+}

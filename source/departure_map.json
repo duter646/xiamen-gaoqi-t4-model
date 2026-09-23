@@ -1,0 +1,482 @@
+{
+  "source": "references/t4-2f-map.jpg",
+  "coordinate_basis": "Image displayed at 1809 x 1376; affine main-hall registration; not a measured floor plan",
+  "anchors": [
+    {
+      "id": "front_west",
+      "xz": [
+        -36,
+        114
+      ],
+      "uv": [
+        960,
+        1156
+      ]
+    },
+    {
+      "id": "front_east",
+      "xz": [
+        358,
+        114
+      ],
+      "uv": [
+        1624,
+        674
+      ]
+    },
+    {
+      "id": "rear_west",
+      "xz": [
+        -36,
+        1
+      ],
+      "uv": [
+        741,
+        978
+      ]
+    },
+    {
+      "id": "rear_east",
+      "xz": [
+        358,
+        1
+      ],
+      "uv": [
+        1404,
+        559
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "id": "K_core",
+      "uv": [
+        [
+          1093,
+          815
+        ],
+        [
+          1178,
+          756
+        ],
+        [
+          1225,
+          789
+        ],
+        [
+          1136,
+          850
+        ]
+      ],
+      "type": "core"
+    },
+    {
+      "id": "L_core",
+      "uv": [
+        [
+          1178,
+          756
+        ],
+        [
+          1229,
+          720
+        ],
+        [
+          1279,
+          751
+        ],
+        [
+          1225,
+          789
+        ]
+      ],
+      "type": "core"
+    },
+    {
+      "id": "security_west",
+      "uv": [
+        [
+          977,
+          906
+        ],
+        [
+          1090,
+          830
+        ],
+        [
+          1120,
+          851
+        ],
+        [
+          1007,
+          927
+        ]
+      ],
+      "type": "security",
+      "evidence": "P01 green Safety Check symbols; parallel conveyor lanes, not check-in desks"
+    },
+    {
+      "id": "security_east",
+      "uv": [
+        [
+          1240,
+          729
+        ],
+        [
+          1327,
+          675
+        ],
+        [
+          1350,
+          691
+        ],
+        [
+          1264,
+          750
+        ]
+      ],
+      "type": "security",
+      "evidence": "P01 green Safety Check symbols; parallel conveyor lanes, not check-in desks"
+    },
+    {
+      "id": "west_service",
+      "uv": [
+        [
+          741.0,
+          978.0
+        ],
+        [
+          777.5,
+          955.5
+        ],
+        [
+          798.0,
+          969.0
+        ],
+        [
+          790.5,
+          975.0
+        ],
+        [
+          838.5,
+          1007.5
+        ],
+        [
+          850.5,
+          1001.0
+        ],
+        [
+          843.5,
+          995.0
+        ],
+        [
+          883.0,
+          971.5
+        ],
+        [
+          871.5,
+          961.5
+        ],
+        [
+          898.5,
+          947.5
+        ],
+        [
+          906.5,
+          954.0
+        ],
+        [
+          950.0,
+          928.0
+        ],
+        [
+          941.0,
+          920.0
+        ],
+        [
+          964.0,
+          902.5
+        ],
+        [
+          974.5,
+          902.0
+        ],
+        [
+          1012.5,
+          929.0
+        ],
+        [
+          917.0,
+          1000.5
+        ],
+        [
+          927.5,
+          1009.5
+        ],
+        [
+          927.5,
+          1019.0
+        ],
+        [
+          954.5,
+          1031.5
+        ],
+        [
+          955.5,
+          1038.0
+        ],
+        [
+          914.5,
+          1064.0
+        ],
+        [
+          932.5,
+          1078.5
+        ],
+        [
+          978.5,
+          1050.0
+        ],
+        [
+          1015.0,
+          1077.0
+        ],
+        [
+          928.5,
+          1140.0
+        ]
+      ],
+      "type": "commercial"
+    },
+    {
+      "id": "east_service",
+      "uv": [
+        [
+          1302.5,
+          651.5
+        ],
+        [
+          1404.5,
+          559.0
+        ],
+        [
+          1597.0,
+          655.0
+        ],
+        [
+          1541.5,
+          698.0
+        ],
+        [
+          1443.0,
+          644.5
+        ],
+        [
+          1374.5,
+          690.0
+        ]
+      ],
+      "type": "commercial"
+    },
+    {
+      "id": "rear_shop_1",
+      "type": "commercial",
+      "uv": [
+        [
+          897.0,
+          880.0
+        ],
+        [
+          987.5,
+          818.5
+        ],
+        [
+          1014.5,
+          832.0
+        ],
+        [
+          1010.0,
+          845.5
+        ],
+        [
+          995.5,
+          855.5
+        ],
+        [
+          977.5,
+          862.0
+        ],
+        [
+          958.5,
+          873.5
+        ],
+        [
+          946.0,
+          864.5
+        ],
+        [
+          908.5,
+          889.5
+        ]
+      ],
+      "evidence": "P01 Shopping symbols; source top silhouette traced at 2x crop scale"
+    },
+    {
+      "id": "rear_shop_2",
+      "type": "commercial",
+      "uv": [
+        [
+          1004.0,
+          813.5
+        ],
+        [
+          1098.5,
+          750.0
+        ],
+        [
+          1125.5,
+          763.0
+        ],
+        [
+          1122.5,
+          771.5
+        ],
+        [
+          1109.0,
+          781.5
+        ],
+        [
+          1095.5,
+          786.0
+        ],
+        [
+          1089.5,
+          794.0
+        ],
+        [
+          1077.0,
+          800.5
+        ],
+        [
+          1066.0,
+          802.5
+        ],
+        [
+          1054.5,
+          813.5
+        ],
+        [
+          1039.0,
+          821.5
+        ],
+        [
+          1021.5,
+          830.5
+        ]
+      ],
+      "evidence": "P01 Shopping symbols; source top silhouette traced at 2x crop scale"
+    },
+    {
+      "id": "rear_shop_3",
+      "type": "commercial",
+      "uv": [
+        [
+          1109.5,
+          743.0
+        ],
+        [
+          1172.5,
+          703.5
+        ],
+        [
+          1197.5,
+          719.0
+        ],
+        [
+          1194.0,
+          724.5
+        ],
+        [
+          1181.0,
+          732.5
+        ],
+        [
+          1162.0,
+          739.0
+        ],
+        [
+          1156.0,
+          747.0
+        ],
+        [
+          1145.0,
+          755.0
+        ],
+        [
+          1130.0,
+          758.5
+        ]
+      ],
+      "evidence": "P01 Shopping symbols; source top silhouette traced at 2x crop scale"
+    },
+    {
+      "id": "rear_shop_4",
+      "type": "commercial",
+      "uv": [
+        [
+          1182.5,
+          701.0
+        ],
+        [
+          1280.0,
+          638.5
+        ],
+        [
+          1302.5,
+          651.5
+        ],
+        [
+          1293.5,
+          658.0
+        ],
+        [
+          1281.5,
+          667.0
+        ],
+        [
+          1265.0,
+          672.0
+        ],
+        [
+          1250.5,
+          677.5
+        ],
+        [
+          1247.5,
+          689.5
+        ],
+        [
+          1238.5,
+          695.5
+        ],
+        [
+          1227.0,
+          700.0
+        ],
+        [
+          1203.0,
+          714.0
+        ]
+      ],
+      "evidence": "P01 Shopping symbols; source top silhouette traced at 2x crop scale"
+    }
+  ],
+  "requirements": [
+    "Check-in desks on the public faces of K/L islands",
+    "Security banks flank K/L, identified by Safety Check symbols",
+    "Rear shopping units across the hall, with an airside circulation spine",
+    "Stepped commercial/service footprints at both ends",
+    "Narrow uphill connector preserved; arrivals segregated"
+  ],
+  "uncertainty": "Axonometric guide, not surveyed plan. Blue top silhouettes approximate floor footprints; unit heights, depths hidden by symbols and scanner module counts remain inferred."
+}

@@ -1,0 +1,98 @@
+{
+  "arrival": {
+    "anchor_rms_px": 42.6643879599837,
+    "limits": "Illustrative guide, independent exterior anchors; height removed. Internal walls, modules and dimensions are not surveyed.",
+    "versions": {
+      "before": {
+        "sha256": "ff8744f02bfceaadb2aeee052dbf8bc591dd5fc9067349ce7b2875a4ef9797e0",
+        "category_mesh_count": [
+          20,
+          50,
+          31
+        ],
+        "belt_centres_xz": {
+          "belt_21_base": [
+            91.0,
+            46.5
+          ],
+          "belt_22_base": [
+            137.0,
+            46.5
+          ],
+          "belt_23_base": [
+            183.0,
+            46.5
+          ],
+          "belt_24_base": [
+            229.0,
+            46.5
+          ],
+          "belt_25_base": [
+            275.0,
+            46.5
+          ]
+        }
+      },
+      "after": {
+        "sha256": "66d5fbca9e63b2cfddfba3b2466edde914a0e5e5ea8529dbfeb8ae1cd9ba4b04",
+        "category_mesh_count": [
+          20,
+          50,
+          31
+        ],
+        "belt_centres_xz": {
+          "belt_21_base": [
+            114.65507507324219,
+            50.717262268066406
+          ],
+          "belt_22_base": [
+            137.5625,
+            50.74631118774414
+          ],
+          "belt_23_base": [
+            159.6520538330078,
+            50.4894905090332
+          ],
+          "belt_24_base": [
+            179.0987548828125,
+            51.00910949707031
+          ],
+          "belt_25_base": [
+            198.908935546875,
+            50.08633804321289
+          ]
+        }
+      }
+    }
+  },
+  "finger": {
+    "anchor_rms_px": 3.783186487605387,
+    "limits": "Illustrative guide, independent exterior anchors; height removed. Internal walls, modules and dimensions are not surveyed.",
+    "versions": {
+      "before": {
+        "sha256": "ff8744f02bfceaadb2aeee052dbf8bc591dd5fc9067349ce7b2875a4ef9797e0",
+        "category_mesh_count": [
+          3,
+          0,
+          101
+        ],
+        "belt_centres_xz": {}
+      },
+      "after": {
+        "sha256": "66d5fbca9e63b2cfddfba3b2466edde914a0e5e5ea8529dbfeb8ae1cd9ba4b04",
+        "category_mesh_count": [
+          3,
+          24,
+          99
+        ],
+        "belt_centres_xz": {}
+      }
+    }
+  },
+  "findings": [
+    "P02 belts 21–25 were spaced 46 m apart; guide-registered centres have roughly 20–23 m spacing. Belts shortened from 33 m to 22 m; widths and end shape remain inferred.",
+    "P01 west service/shop clusters were missing; add four groups and retain clear gate apertures. Waiting banks concentrated east, with short west banks between services.",
+    "Gate order 61/63/65/67/69/71/72 east and 62/66/68/70/73 west agrees with P01; OSM longitudinal coordinates retained, not claimed metrically verified.",
+    "Arrival controlled exit and mezzanine links pass mesh navigation; detailed arrival end service volumes and map 25-adjacent unnumbered U-shape remain unresolved and have not been guessed as a sixth belt."
+  ]
+}

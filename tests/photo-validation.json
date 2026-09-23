@@ -1,0 +1,18 @@
+{
+  "sha256": "66d5fbca9e63b2cfddfba3b2466edde914a0e5e5ea8529dbfeb8ae1cd9ba4b04",
+  "appSha256": "7f1227f0bc93c5cf48f11fcd233c8f3a1ee732c7765876955026dda7d660674c",
+  "errors": [],
+  "cameras": {
+    "position": [
+      210,
+      95.00000000000004,
+      350.0000000000002
+    ],
+    "target": [
+      155,
+      9,
+      35
+    ],
+    "routeVisibility": false
+  }
+}

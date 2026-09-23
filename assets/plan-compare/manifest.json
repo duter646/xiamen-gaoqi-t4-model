@@ -1,0 +1,43 @@
+{
+  "affine_xz_to_uv": [
+    [
+      1.6840101522847803,
+      -1.1434010152278102
+    ],
+    [
+      1.9424778761028598,
+      1.2964601769871749
+    ],
+    [
+      799.4318876061275,
+      951.2911032747858
+    ]
+  ],
+  "anchor_rms_px": 15.751984002023363,
+  "limits": [
+    "Exterior-anchor affine registration held fixed between revisions",
+    "Guide is illustrative axonometric; top silhouettes are not surveyed footprints",
+    "Triangulated GLB floor projections, not hand-redrawn model outlines",
+    "Projection deliberately removes height displacement; vertical section needs photographs"
+  ],
+  "revisions": {
+    "before": {
+      "sha256": "563e86329ceee0fbcc68c03db5248b2798eb0254d81d6cb0413ea59ed8f3ef8c",
+      "mesh_counts": {
+        "checkin": 213,
+        "security": 54,
+        "commercial": 9,
+        "other": 75
+      }
+    },
+    "after": {
+      "sha256": "66d5fbca9e63b2cfddfba3b2466edde914a0e5e5ea8529dbfeb8ae1cd9ba4b04",
+      "mesh_counts": {
+        "checkin": 60,
+        "security": 118,
+        "commercial": 6,
+        "other": 101
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "arrival_level": 0,
+  "arrival_mezzanine": 4.0,
+  "departure_level": 8.0,
+  "upper_mezzanine": 13.0,
+  "main_x": [
+    -36,
+    358
+  ],
+  "main_z": [
+    1,
+    114
+  ],
+  "concourse_x": [
+    -22,
+    30
+  ],
+  "concourse_z": [
+    -322,
+    1
+  ],
+  "certainty": {
+    "footprint": "G01 OSM approximate inset from roof outline",
+    "arrival_mezzanine": "Existence confirmed; elevation and extent inferred",
+    "departure_level": "2F confirmed; 8 m inferred",
+    "upper_mezzanine": "13 m given by China Eastern airport guide; local extent inferred",
+    "roof": "C01 C07 C09 C21 photographic shape; heights inferred",
+    "concourse_rise": "R5 user photo confirms gently raised concourse; 0.65 m over 24 m is inferred.",
+    "connector": "R6 circled map neck; R5 interior; width 12 m, 24 m run and 0.65 m rise remain estimates"
+  },
+  "roof_profile_note": "R2 roof_y and finger_y in build.py define inferred variable roof profiles; obsolete r1 constant eave parameters removed.",
+  "concourse_rise": {
+    "height": 0.65,
+    "start_z": 1.0,
+    "end_z": -23.0
+  },
+  "connector_x": [
+    -10,
+    2
+  ],
+  "connector_end_offset": 4.5
+}

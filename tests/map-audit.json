@@ -1,0 +1,38 @@
+{
+  "sha256": "66d5fbca9e63b2cfddfba3b2466edde914a0e5e5ea8529dbfeb8ae1cd9ba4b04",
+  "exported_core_vertex_error_px": {
+    "K_core": 1.6546963546497985e-05,
+    "L_core": 1.713738163140787e-05,
+    "west_service": 7.775464783791218e-06,
+    "east_service": 2.867595557160437e-05,
+    "rear_shop_1": 7.1680878184741094e-06,
+    "rear_shop_2": 1.5358651490690196e-05,
+    "rear_shop_3": 1.2996246165194075e-05,
+    "rear_shop_4": 3.0836091721701395e-05
+  },
+  "anchor_rms_px": 15.751984002023363,
+  "scope": "All mapped core and commercial polygon vertices verified from GLB. Security envelopes are references, not filled solids. This verifies implementation only; category evidence was checked against map symbols and photos.",
+  "strict_map_correspondence": false,
+  "audit_findings": [
+    {
+      "object": "check-in/security",
+      "status": "Guide Safety Check symbols reinterpreted: two banks flank K/L; check-in desks only on public core faces"
+    },
+    {
+      "object": "commercial",
+      "status": "Rear scalloped shopping silhouettes and stepped end blocks traced; shop internals not resolved"
+    },
+    {
+      "object": "projection",
+      "status": "Interactive compare.html uses actual before/after GLB triangles with fixed exterior-anchor affine registration"
+    },
+    {
+      "object": "vertical section",
+      "status": "Illustrative map does not determine measured heights; roof and floor elevations remain inferred"
+    },
+    {
+      "object": "remaining detail",
+      "status": "K/L internal service notches, exact desk counts and shop interiors require further detail; source silhouettes are not measured floor footprints"
+    }
+  ]
+}

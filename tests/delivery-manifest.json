@@ -1,0 +1,72 @@
+{
+  "index.html": {
+    "bytes": 3633,
+    "sha256": "471997ff331f8cf29a881e395b5c34ba8db1a01c966cf1ce3903b6ffa4102795",
+    "http_matches_disk": true
+  },
+  "app.js": {
+    "bytes": 8495,
+    "sha256": "7f1227f0bc93c5cf48f11fcd233c8f3a1ee732c7765876955026dda7d660674c",
+    "http_matches_disk": true
+  },
+  "style.css": {
+    "bytes": 2880,
+    "sha256": "a55f4c49badb188927e07e2b0112c6a9c2063a908797fcc874bce9105eb75f84",
+    "http_matches_disk": true
+  },
+  "compare.html": {
+    "bytes": 5454,
+    "sha256": "f657664d5d9ee2df7ee5ccfa1187c5cb17f90ab3a6deb7f6059f0b62f3ec9bd1",
+    "http_matches_disk": true
+  },
+  "arrival-finger-compare.html": {
+    "bytes": 3530,
+    "sha256": "6d367a9a891cc219005f24b5698c66c642b129f80d24ad36f87e7498df0a3d88",
+    "http_matches_disk": true
+  },
+  "assets/arrival-finger-compare/report.json": {
+    "bytes": 3092,
+    "sha256": "49c50bf31e968ab8f5efb734809575bef51a20dd608fc01157d5abca30441fd4",
+    "http_matches_disk": true
+  },
+  "assets/plan-compare/manifest.json": {
+    "bytes": 1130,
+    "sha256": "89ef0e2efca4af2da995293a11bca501d548c3dc2f67c5651588b58950d8f681",
+    "http_matches_disk": true
+  },
+  "assets/xiamen-gaoqi-t4.glb": {
+    "bytes": 23403104,
+    "sha256": "66d5fbca9e63b2cfddfba3b2466edde914a0e5e5ea8529dbfeb8ae1cd9ba4b04",
+    "http_matches_disk": true
+  },
+  "assets/routes.json": {
+    "bytes": 32688,
+    "sha256": "a1a3f9c605108ce1c7c4628bbbf0305cf7e85684ecd6a09c36afc3230d66e87b",
+    "http_matches_disk": true
+  },
+  "assets/components.json": {
+    "bytes": 515984,
+    "sha256": "f00858b6444cb21d9223c6b7b319a50fc440760c0dba0a6ab0441a2f8ed0e6cb",
+    "http_matches_disk": true
+  },
+  "assets/bridge-branches.json": {
+    "bytes": 4887,
+    "sha256": "df13230d8db7c44a53130d7cbc53cdce50177a668775c32e883112d58796f9d2",
+    "http_matches_disk": true
+  },
+  "assets/departure-profile.json": {
+    "bytes": 164,
+    "sha256": "501ec36bd41a22f9d97d214c700ac902f6a744af535bf79da5da15f9c8110401",
+    "http_matches_disk": true
+  },
+  "EVIDENCE.md": {
+    "bytes": 13604,
+    "sha256": "2e2f8d59a6f1466990b96bc8efbf9a70dea72e5769640f7071e0d04fa91a5f79",
+    "http_matches_disk": true
+  },
+  "REPORT.md": {
+    "bytes": 4357,
+    "sha256": "ffd7672ec84cb6517b66d13fbf840ee690826f8adfcdfcec3a93a3bf1b1aa571",
+    "http_matches_disk": true
+  }
+}

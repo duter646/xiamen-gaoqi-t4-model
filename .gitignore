@@ -1,0 +1,20 @@
+*.glb
+*.zip
+archive/
+tmp/
+_site/
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Original research material and photo comparisons remain local.
+references/
+tests/*.png
+tests/*.jpg
+!tests/overall.png
+fetch_references.ps1
+
