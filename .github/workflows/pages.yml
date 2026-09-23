@@ -22,7 +22,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release download v1.0.0 --repo "$GITHUB_REPOSITORY" --pattern "xiamen-gaoqi-t4.glb" --dir assets
+          curl --fail --location --retry 3 --output assets/xiamen-gaoqi-t4.glb "https://github.com/$GITHUB_REPOSITORY/releases/download/v1.0.0/xiamen-gaoqi-t4.glb"
           sha256sum --check SHA256SUMS.txt
       - name: Assemble public site
         run: python tools/assemble_site.py
